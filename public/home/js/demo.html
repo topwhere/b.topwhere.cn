@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <script src="datePicker.js"></script>
+    <title>易事达酒店预订平台</title>
+    <style>
+      *{margin:0;padding: 0;}
+      html{font-size: 100px;}
+      /*form{background: red;}*/
+      div{font-size: 0.18rem;padding: 0.1rem 5%;border-bottom: 1px solid #EFEFEF;}
+      input{border: none;border-radius: 0;width: 50%;text-align: right;font-size: 0.18rem;float: right;-webkit-appearance : none;}
+      select{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);border: none;font-size: 0.18rem;float: right;color: #A1A1A1;background: #FFF;}
+      input::-ms-input-placeholder{color:#A1A1A1;}
+      input::-webkit-input-placeholder{color: #A1A1A1;}
+      button{-webkit-appearance:none;outline:}
+      #submitBtn{color: #FFF;background: #FF6F0F;text-align: center;width: 33%;}
+      a,i{color: #A1A1A1;text-decoration: none;}
+      .gearDate{padding:0;}
+      .date_bg{padding: 0;}
+      .date_grid{border-top: 1px solid #808080!important;    border-bottom: 1px solid #808080!important;}
+      .gearDate div{padding: 0;border:none;}
+      .date_btn_box{padding: 0.1rem 3%!important;}
+      
+
+     
+    </style>
+
+  
+
+  </head>
+  <body >
+
+ 
+
+    <!-- 验证表单 -->
+    <form class="" name="fileForm" action="" method="get">
+      <div class="menu">
+        到店时间
+      	<input type="data" name="data" readonly   id="go_data" name="" value="" placeholder="请选择"  style="color:#A1A1A1;">
+      </div>
+    </form>
+
+
+    <!-- 选择时间 -->
+    <script>
+    var calendar = new datePicker();
+        calendar.init({
+        'trigger': '#go_data', /*按钮选择器，用于触发弹出插件*/
+        'type': 'date',/*模式：date日期；datetime日期时间；time时间；ym年月；*/
+        'minDate':'2016-1-1',/*最小日期*/
+        'maxDate':'2100-12-31',/*最大日期*/
+        'onSubmit':function(){/*确认时触发事件*/
+          var theSelectData=calendar.value;
+        },
+        'onClose':function(){/*取消时触发事件*/
+        }
+        });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,439 @@
+.hotelSeeK_bg{
+	width:750px;
+	height: 250px;
+
+}
+.recommend{
+	width:690px;
+	height:290px;
+	padding:0 30px 0 30px;
+	border-bottom: 1px solid #e5e5e5;
+	font:30px "微软雅黑";
+	color:#999999;
+	position: relative;
+	background:white;
+}
+.hotelSeek_search{
+	width:720px;
+	height:273px;
+	background:white;
+	position:absolute;
+	top:115px;
+	left:15px;
+	border-radius:5px;
+	box-shadow: 11px 3px 44px -8px #d2d2d2;
+	z-index: 222;
+	border:1px solid #ccc;
+}
+.hs_header{
+	width:690px;
+	height:170px;
+	border-bottom: 1px solid #e5e5e5;
+	margin:0 15px 0 15px;
+	/*line-height: 150px;*/
+}
+
+.hsImg{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	/*vertical-align: middle;*/
+	margin-top:25px;
+}
+.hotDetail{
+	display:inline-block;
+	width:560px;
+	height:100px;
+	margin-top:25px;
+	margin-left:15px;
+}
+.hotDetail p{
+	display:inline-block;
+}
+.hotName{
+	width:500px;
+	height:84px;
+	font:30px "微软雅黑";
+	color:#353535;
+}
+.hotDetail p:nth-child(2),.hotDetail p:nth-child(3){
+	width:50px;
+	height:24px;
+	text-align: center;
+	font:20px "微软雅黑";
+	border:2px solid #e34a36;
+	color:#e34a36;
+}
+.hlPlace{
+	font:24px "微软雅黑";
+	color:#adadad;
+	padding-left:30px;
+	background:url(../images/loc.png) no-repeat 1px 1px;
+	margin-top:15px;
+}
+.cli{
+   position: relative;
+    top: -61px;
+    right: -526px;
+    width: 23px;
+    height: 23px;
+    border: 4px solid #cccccc;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(135deg);
+	-ms-transform:rotate(135deg); 	/* IE 9 */
+	-moz-transform:rotate(135deg); 	/* Firefox */
+	-webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+	-o-transform:rotate(135deg); 	/* Opera */
+}
+.hsLeft{
+	width:200px;
+	height:80px;
+	padding-left:50px;
+	background-image: url(../images/se.png);
+	background-repeat: no-repeat;
+    background-position: 6px 29px;
+}
+.hsLeft input{
+	width:200px;
+	height:90px;
+	font:28px "微软雅黑";
+	border:none;
+	border-bottom:1px solid #e5e5e5 ;
+	outline:none;
+}
+
+.hsRight{
+	width:150px;
+	height:80px;
+	background:pink;
+	text-align: right;
+	font:28px/90px "微软雅黑";
+	background: url(../images/location.png)no-repeat 1px 27px;
+	color:#353535;
+}
+.find{
+    width: 330px;
+    height: 70px;
+    background: #189AFE;
+    font: 32px/70px "微软雅黑";
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 98px auto 0px; */
+    top: 255px;
+    left: 201px;
+    position: absolute;
+    z-index: 111;
+}
+.hotelList{
+	width:710px;
+	height:240px;
+	border-bottom: 1px solid #e5e5e5;
+	padding:0 20px 0 20px;
+	position:relative;
+}
+.hotelImg{
+	width:180px;
+	height:180px;
+    margin: 30px 15px 0 0;
+}
+.hotelData{
+	width:505px;
+	height:190px;
+    margin: 25px 0 0 0;
+}
+.hotelName{
+	width:520px;
+	height:35px;
+	font:bold 30px "微软雅黑";
+	line-height: 35px;vertical-align: middle;
+    margin-top: 5px;
+}
+
+.hotelName span:nth-child(1){
+   display:inline-block;
+	height:35px;
+	font:bold 30px/35px "微软雅黑";
+	margin-right:10px;
+}
+
+.best{
+	display:inline-block;
+	font:bold 21px/25px "微软雅黑";
+	color:#e34a36;
+	width:60px;
+	height:23px;
+	text-align: center;
+	border:2px solid #e34a36;
+	line-height:30px;
+	margin-top:4px;
+}
+.hotelPlace{
+	font:24px/30px "微软雅黑";
+	width:350px;
+	height:30px;
+	padding-left:31px;
+	margin:15px 0px 15px 0px;
+	background:url(../images/loc.png) no-repeat 1px 1px;
+}
+.starNub{
+	display:inline-block;
+	width:60px;
+	height:40px;
+	font:24px/40px "微软雅黑";
+}
+.star{
+	display:inline-block;
+	width:33px;
+	height:40px;
+	font:24px "微软雅黑";
+	background:url(../images/star.png) no-repeat 1px 6px;
+}
+.starWrap{
+	height:40px;
+	width:340px;
+	line-height:40px;
+    margin-bottom: 10px;
+}
+.environment{
+	width:400px;
+	height:30px;
+	margin-top:4px;
+}
+.environment li{
+	width:auto;
+	height:25px;
+	font:20px "微软雅黑";
+	margin-right:8px;
+}
+.deduction{
+	color:#ffa02b;
+	border:2px solid #ffa02b;
+}
+.merit{
+	color:#77b3ff;
+	border:2px solid #77b3ff;
+}
+.hotelPrice{
+	width:150px;
+	height:50px;
+	position:absolute;
+	right:20px;
+	top:80px;
+}
+.romtypeR span:nth-child(1){
+	font:30px/90px "微软雅黑";
+	color:#df2e17;
+}
+.romtypeR span:nth-child(2){
+	font:18px/90px "微软雅黑";
+	color:#a0a0a0;
+}
+
+.inHL{
+    position: relative;
+    top: 6px;
+    left: 7px;
+    width: 27px;
+    height: 27px;
+    border: 6px solid white;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 	/* Opera */
+}
+.hotelTitle{
+	position:absolute;
+	top:27px;
+	left:30px;
+	width:690px;
+	height:50px;
+}
+.hotelTitle>div{
+	width:230px;
+}
+.hotelTitle>div:nth-child(1){
+	color:white;
+	/*position:relative*/
+}
+.hotelTitle>div:nth-child(2){
+	font:bold 36px/43px "微软雅黑";
+	color:white;
+	text-align: center;
+}
+.hotelTitle>div:nth-child(3){
+	font:36px/50px "微软雅黑";
+	color:white;
+	text-align: right;
+	background:url(../images/screen.png)no-repeat 120px 12px;
+}
+
+.romtype{
+	width:690px;
+	padding:0 30px 0 30px;
+	height:90px;
+	border:1px solid #e5e5e5;
+	background:white;
+}
+.romtypeL>div:nth-child(1){
+	display:inline-block;
+	width:auto;
+	height:90px;
+	font:30px/90px "微软雅黑";
+	/*background:url(../images/up.png) no-repeat 61px 60px;*/
+}
+
+.romtypeR{
+	width: 139px;
+    height: 90px;
+    background: url(../images/pull.png)no-repeat 110px 35px;
+}
+.book{
+	width:690px;
+	height:80px;
+	background:#f0eff5;
+	padding:0 30px 0 30px;
+	border-bottom: 1px solid #ccc;
+}
+.book div{
+	width:120px;
+	height:80px;
+}
+.book div:nth-child(1){
+	font:26px/80px "微软雅黑";
+	color:#35a5fd;
+}
+.book div:nth-child(4){
+	font:26px/80px "微软雅黑";
+	color:#aaaaab;
+}
+.book div:nth-child(3){
+	font:30px/80px "微软雅黑";
+	color:#df2e17;
+}
+
+.book div:nth-child(2){
+	width:120px;
+	height: 50px;
+	font:30px/54px "微软雅黑";
+	color:white;
+	background:#189afe;
+	text-align: center;
+    margin-top: 18px;
+    border-radius:5px;
+}
+.bookCon{
+	display:none;
+}
+.hs_bottom{
+	width:690px;
+	height:95px;
+	margin:0 auto;
+}
+
+.hs_bottom div{
+	width:341px;
+	height:95px;
+	text-align: center;
+	font:28px/95px "微软雅黑";
+	background:url(../images/place.png)no-repeat 70px 35px;
+}
+
+.hs_bottom div:nth-child(3){
+	background:url(../images/place.png)no-repeat 70px 35px;
+}
+
+.hs_bottom a{
+	color:#353535;
+}
+
+.hs_bottom div:nth-child(2){
+	width:6px;height:95px;
+	background:url(../images/line.png)no-repeat 1px 12px;
+}
+
+.hs_bottom div:nth-child(1){
+	background:url(../images/dial.png)no-repeat 70px 35px;
+}
+.indentCon{
+	width:720px;
+	height:540px;
+	background:white;
+	border-radius:5px;
+	padding-top:11px;
+	margin:155px auto 0;
+}
+.indentList{
+	width:720px;
+	height:55px;
+	font:28px/55px "微软雅黑";
+}
+
+.indentList{
+	width:705px;
+	height:55px;
+	font:28px "微软雅黑";
+	padding-left:15px
+}
+
+
+.indentList p:nth-child(1){
+	width:169px;
+	height:55px;
+	font:28px/55px "微软雅黑";
+	/*letter-spacing: 59px;*/
+	color:#999
+}
+
+.indentList p:nth-child(2){
+	width:260px;
+	height:55px;
+	font:28px/55px "微软雅黑";
+	/*letter-spacing: 59px;*/
+}
+
+.indentList p:nth-child(3){
+	width:160px;
+	height:55px;
+	font:28px/55px "微软雅黑";
+	text-align: center;
+}
+
+.space{
+	letter-spacing: 55px;
+}
+.smSpace{
+	letter-spacing: 13px;
+}
+.line{
+	width:695px;
+	height:2px;
+	background:#efeff4;
+	margin:15px auto 15px;
+}
+.policy{
+	width:690px;
+	height:auto;
+	margin:20px auto 0 ;
+}
+.policy div{
+	font:24px "微软雅黑";
+	margin:10px 0 10px 0;
+	color:#999;
+}
+
+.policy div span:nth-child(2){
+	font:24px "微软雅黑";
+	margin:10px 0 10px 0;
+	margin-left:30px;
+}
+
+.policy p{
+	font:26px "微软雅黑";
+	background:url(../images/plic.png)no-repeat 1px 4px;
+	padding-left:40px;
+}

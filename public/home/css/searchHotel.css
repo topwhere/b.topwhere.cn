@@ -1,0 +1,22 @@
+.hotelList{
+	width:690px;
+	height:138px;
+	padding:0 30px 0 30px;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.hotelList div{
+	width:690px;
+	height:40px;
+	font:30px/40px "微软雅黑";
+	margin-top:25px;
+}
+.hotelList>p{
+	width:690px;
+	height:40px;
+	font:26px/40px "微软雅黑";
+	margin:10px 0 0  0 !important;
+	padding-left:29px;
+	background:url(../images/loc.png)no-repeat 1px 7px;
+	color:#ccc;
+}

@@ -1,0 +1,178 @@
+
+.invoiceHeader{
+	font:36px/90px "微软雅黑";
+	width:690px;
+	height:90px;
+	background:white;
+	 position: relative;
+	 padding:0 30px 0 30px;
+	 text-align: center;
+}
+.inHL{
+    position: absolute;
+    top: 31px;
+    left: 36px;
+    width: 25px;
+    height: 25px;
+    border: 6px solid #dfdfdf;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 	/* Opera */
+}
+
+.invoMiddle{
+	width:750px;
+	height:1030px;
+	/*padding:0 30px 0 30px;*/
+}
+.addInvo{
+	width:750px;
+	height:88px;
+	background:#4899ff;
+	text-align: center;
+	font:36px/88px "微软雅黑";
+	color:white;
+}
+.oftenInfo,.invoInfo{
+	width:690px;
+	height:76px;
+	font:28px/76px "微软雅黑";
+	padding:0 30px 0 30px;
+	border-bottom: 1px solid #ccc;
+}
+.common,.specially{
+	width:690px;
+	height:88px;
+	padding:0 30px 0 30px;
+	font:28px/88px "微软雅黑";
+	background-color:white;
+	border-bottom: 1px solid #ccc;
+	background-image: url(../images/2.png);
+	background-repeat: no-repeat;
+	background-position: 688px 22px;
+}
+.infoList{
+	width:690px;
+	height:88px;
+	background:white;
+	font:30px/88px "微软雅黑";
+	padding:0 30px 0 30px;
+	border-bottom: 1px solid #eee;
+	outline:none;
+}
+.infoList input{
+	display:inline-block;
+	width:516px;
+	height:68px;
+	font:30px "微软雅黑";
+	text-align: right;
+	border:none;
+	outline:none;
+}
+.infoList label{
+	display:inline-block;
+	width:160px;
+	height:68px;
+}
+.save{
+	display:none;
+	width:80px;
+	height:50px;
+	position:absolute;
+	right:30px;
+	top:25px;
+	font: 30px "微软雅黑";
+	color:#189afe;
+}
+.common>div,.specially>div{
+	position:relative;
+}
+.checkShow{
+	position:absolute;
+	top: 21px;
+    right: -5px;
+    /*display:none;*/
+}
+
+
+.check{
+	position:absolute;
+	top: 21px;
+    right: -5px;
+    display:none;
+}
+.invoH{
+	width:690px;
+	height:75px;
+	padding:0 30px 0 30px;
+	font:28px/75px "微软雅黑";
+}
+.inLists{
+	width:690px;
+	height:88px;
+	padding:0 30px 0 30px;
+	background:white;
+}
+.invoName{
+	width:340px;
+	height:88px;
+	font:30px/88px "微软雅黑";
+}
+.invoName span:nth-child(2){
+	color:#ccc;
+	font:24px "微软雅黑";
+}
+.sign{
+	width:46px;
+	height:88px;
+}
+.sign p{
+	width:40px;
+	height:88px;
+	background:url(../images/sign.png)no-repeat 3px 27px;
+}
+.edit{
+	width:70px;
+	height:88px;
+}
+.edit p{
+	width:70px;
+	height:88px;
+	background:url(../images/edit.png) no-repeat 30px 30px;
+}
+.dele{
+	width:70px;
+	height:88px;
+}
+.dele p{
+	width:70px;
+	height:88px;
+	background:url(../images/dele.png)no-repeat 30px 30px;
+}
+.hide{
+	/*visibility: hidden;*/
+}
+
+
+.inLists div{
+	visibility: hidden;
+}
+.show{
+	visibility: visible !important;
+	display:block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
