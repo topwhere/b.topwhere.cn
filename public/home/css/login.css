@@ -1,0 +1,68 @@
+#wrap{
+	width:750px;
+	height:1150px;
+	background-image:url(../images/bg_02.png);
+	background-repeat:no-repeat;
+	background-size: 100% 60%;
+	background-position-y: 100%;
+	background-color:#030f2d;
+	padding-top:150px
+}
+.logo{
+	width:350px;
+	height:110px;
+	margin: 0 auto 160px;
+	background-image: url(../images/logo.png);
+}
+
+.register p{
+	width:530px;
+	height:109px;
+	border-bottom:1px solid #ccc;
+	padding-left:70px;
+	margin:0 auto;
+	font:30px "微软雅黑";
+}
+.register>p:nth-child(2){
+	width:600px;
+	padding:0;
+}
+.register p input{
+	height: 74px;
+    width: 420px;
+    font: 30px "微软雅黑";
+    color: #cccccc;
+    border:none;
+    outline:none;
+    background: #030f2d;
+    margin-top: 30px;
+}
+.username{
+	background:url(../images/name.png)no-repeat 2px 40px;
+}
+.userphoto{
+	background:url(../images/tel.png) no-repeat 2px 40px;
+}
+.companyId{
+	background:url(../images/m.png) no-repeat 2px 42px;
+}
+#getCode{
+	width:165px;
+	height:60px;
+	background:#4698ff;
+	color:white;
+	top: -5px;
+	border-radius:10px;
+	border:none;
+	font:26px "微软雅黑";
+}
+.next{
+	width:600px;
+	height:88px;
+	margin:75px auto 0;
+	text-align: center;
+	font:34px/88px "微软雅黑";
+	color:white;
+	background:#4698ff;;
+	 border-radius:12px;
+}

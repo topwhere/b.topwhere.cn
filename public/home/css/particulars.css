@@ -1,0 +1,70 @@
+.housePrice{
+	font:bold 32px "微软雅黑";
+	text-align: center;
+	margin:213px 0 60px 0;	 
+}
+.detailList{
+	width:690px;
+	height:90px;
+	margin: 0 auto;
+	font:28px/90px "微软雅黑";
+	border-bottom:1px solid #e5e5e5;
+	color:#999999;
+}
+.detailList li{
+	width:290px;
+	text-align: center;
+	
+}
+.detailList li:nth-child(3){
+	width:160px;
+	text-align: right;
+    padding-right:40px;
+}
+.detailList li:nth-child(1){
+	width:160px;
+	text-align: left;
+    padding-left:40px;
+}
+.conList{
+	width:690px;
+	height:140px;
+	margin: 0 auto;
+	font:28px/120px "微软雅黑";
+	border-bottom:1px solid #eee;
+	color:#353535;
+}
+.conList li{
+	width:290px;
+	text-align: center;
+	
+}
+.conList li:nth-child(3){
+	width:200px;
+	text-align: right;
+}
+.conList li:nth-child(1){
+	width:200px;
+	text-align: left;
+}
+.discounts{
+	width:690px;
+	height:50px;
+	margin:65px auto 0;
+	font:26px/50px "微软雅黑";
+	color:#a7a7a7;
+}
+.sum{
+	width:690px;
+	height:50px;
+	margin:30px auto 0;
+	font:30px/50px "微软雅黑";
+	color:#a7a7a7;
+}
+.sum div:nth-child(1){
+	color:#353535;	
+}
+
+.sum div:nth-child(2){
+	color:#e34a36;	
+}

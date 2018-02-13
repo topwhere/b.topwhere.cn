@@ -1,0 +1,158 @@
+/*myInHeaderStart*/
+#myInHeader{
+	width:690px;
+	height:320px;
+	background:cornflowerblue;
+	padding:0 30px 0 30px;
+}
+.inHd{
+	position:relative;
+	padding:22px 0 0 0;
+}
+.inHC{
+	width:690px;
+	height:48px;
+	font:36px/48px "微软雅黑";
+	color:white;
+	text-align: center;
+}
+
+.inNub{
+	height:52px;
+	font:48px/52px "微软雅黑";
+	color:white;
+	text-align: center;
+	margin:86px 0 23px 0;
+}
+.miGarde{
+	text-align: center;
+	font:28px "微软雅黑";
+	color:white;
+}
+
+/*myInHeaderEnd*/
+.intergralLog{
+	width:690px;
+	height:70px;
+	font:28px/70px "微软雅黑";
+	color:#353535;
+	background:#efeff4;
+	padding:0 30px 0 30px;
+}
+.logDetails{
+	width:750px;
+	height:auto;
+	/*padding:0 30px 0px 30px;*/
+}
+.logList{
+	width:690px;
+	height:305px;
+	padding:0 30px 0px 30px;
+	position:relative;
+}
+.ItemName{
+	width:480px;
+	height:70px;
+	font:28px "微软雅黑";
+	color:#353535;
+	padding-top:25px;
+    margin-bottom: 25px;
+}
+.remoney{
+	position: absolute;
+    right: 30px;
+    top: 50px;
+    font:30px "微软雅黑";
+    color:#e55845;
+}
+.addmoney{
+	position: absolute;
+    right: 30px;
+    top: 50px;
+    font:30px "微软雅黑";
+    color:#6badff;
+}
+.logList p{
+	height:30px;
+	font:26px "微软雅黑";
+	color:#adadad;
+	margin-bottom: 12px;
+}
+.consume{
+	height:30px;
+	font:26px "微软雅黑";
+	color:#adadad;
+	margin-top: 20px;
+}
+.empty{
+	width:750px;
+	height:20px;
+	background:#efeff4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

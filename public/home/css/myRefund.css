@@ -1,0 +1,132 @@
+.myReH{
+	width:690px;
+	height:90px;
+	background:#4698ff;
+	font:30px/90px "微软雅黑";
+	color:white;
+	text-align: center;
+	padding:0 30px 0 30px;
+	position:relative;
+}
+.inHL{
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    width: 27px;
+    height: 27px;
+    border: 6px solid white;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(7deg);
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 	/* Opera */
+}
+
+
+.reDetails{
+	width:750px;
+	height:auto;
+	/*padding:0 30px 0px 30px;*/
+}
+.reList{
+	width:690px;
+	height:305px;
+	padding:0 30px 0px 30px;
+	position:relative;
+}
+.reItemName{
+	width:480px;
+	height:70px;
+	font:30px "微软雅黑";
+	color:#353535;
+	padding-top:25px;
+    margin-bottom: 26px;
+}
+.not{
+	position: absolute;
+    right: 30px;
+    top: 50px;
+    font:30px "微软雅黑";
+    color:#adadad;
+}
+.reList p{
+	font:26px "微软雅黑";
+	color:#999999;
+	margin-bottom: 17px;
+}
+.reList ul{
+	border-bottom: 1px dashed #777;
+}
+.reList ul li{
+	width:200px;
+	height:60px;
+	line-height: 60px;
+}
+.reList ul li span:nth-child(1){
+	font:26px "微软雅黑";
+	color:#999;
+}
+.reList ul li span:nth-child(2){
+	font:30px "微软雅黑";
+	color:#353535;
+}
+.all{
+	width:100px;
+	height:30px;
+	border-radius: 12px;
+	font:24px/30px "微软雅黑";
+	margin-top: 12px;
+	color:#ccc;
+	text-align: center;
+	border:1px solid #adadad;
+}
+.price{
+	height:40px;
+	margin-top:12px;
+}
+.price div:nth-child(1){
+	font:34px "微软雅黑";
+	color:red;
+	float:left;
+}
+
+.underway{
+	font:26px "微软雅黑";
+	color:#6badff;
+	margin-top:4px;
+	float:right
+}
+
+.fulfill{
+	font:26px "微软雅黑";
+	color:#666666;
+	margin-top:4px;
+	float:right
+}
+
+.empty{
+	width:750px;
+	height:20px;
+	background:#efeff4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

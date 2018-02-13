@@ -1,0 +1,107 @@
+body a{
+	color:#353535;
+}
+.hotelList{
+	width:710px;
+	height:240px;
+	border-bottom: 1px solid #e5e5e5;
+	padding:0 20px 0 20px;
+	position:relative;
+}
+.hotelImg{
+	width:180px;
+	height:180px;
+    margin: 30px 15px 0 0;
+}
+.hotelData{
+	width:505px;
+	height:190px;
+    margin: 25px 0 0 0;
+}
+.hotelName{
+	width:520px;
+	height:35px;
+	font:bold 30px "微软雅黑";
+	line-height: 35px;vertical-align: middle;
+    margin-top: 5px;
+}
+
+.hotelName span:nth-child(1){
+   display:inline-block;
+	height:35px;
+	font:bold 30px/35px "微软雅黑";
+	margin-right:10px;
+}
+
+.best{
+	display:inline-block;
+	font:bold 21px/25px "微软雅黑";
+	color:#e34a36;
+	width:60px;
+	height:23px;
+	text-align: center;
+	border:2px solid #e34a36;
+	line-height:30px;
+	margin-top:4px;
+}
+.hotelPlace{
+	font:24px/30px "微软雅黑";
+	width:350px;
+	height:30px;
+	padding-left:31px;
+	margin:15px 0px 15px 0px;
+	background:url(../images/loc.png) no-repeat 1px 1px;
+}
+.starNub{
+	display:inline-block;
+	width:60px;
+	height:40px;
+	font:24px/40px "微软雅黑";
+}
+.star{
+	display:inline-block;
+	width:33px;
+	height:27px;
+	font:24px "微软雅黑";
+	background:url(../images/star.png) no-repeat 1px 1px;
+}
+.starWrap{
+	height:40px;
+	width:340px;
+	line-height:40px;
+    margin-bottom: 10px;
+}
+.environment{
+	width:400px;
+	height:30px;
+	margin-top:4px;
+}
+.environment li{
+	width:auto;
+	height:25px;
+	font:20px "微软雅黑";
+	margin-right:8px;
+}
+.deduction{
+	color:#ffa02b;
+	border:2px solid #ffa02b;
+}
+.merit{
+	color:#77b3ff;
+	border:2px solid #77b3ff;
+}
+.hotelPrice{
+	width:150px;
+	height:50px;
+	position:absolute;
+	right:20px;
+	top:80px;
+}
+.hotelPrice span:nth-child(1){
+	font:36px "微软雅黑";
+	color:#df2e17;
+}
+.hotelPrice span:nth-child(2){
+	font:20px "微软雅黑";
+	color:#a0a0a0;
+}

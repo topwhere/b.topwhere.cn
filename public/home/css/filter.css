@@ -1,0 +1,134 @@
+.filWrap{
+	width:720px;
+	height:995px;
+	padding:0 0px 0 30px;
+	border-top:2px solid  #ccc;
+	border-bottom:1px solid  #ccc;
+}
+.filList{
+	width:255px;
+	height:995px;
+	background:white;
+	font:30px/88px "微软雅黑"
+}
+.filList li{
+	width:255px;
+	height:88px;
+	border-bottom:1px solid #E5E5E5;
+}
+.filCon{
+	width:465px;
+	height:995px;
+	
+}
+.addStyle{
+	background:#fafafa;
+	color:#189afe;
+}
+.filCon>ul{
+	display:none
+}
+.price{
+	height:995px;
+	/*overflow:hidden*/
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
+}
+.space{
+	letter-spacing:59px;
+}
+.filItem1 li,.filItem2 li,.filItem3 li,.filItem4 li,.filItem5 li,.filItem6 li,.filItem li{
+	width:440px;
+	height:88px;
+	border-bottom:1px solid #E5E5E5;
+	background:#fafafa;
+	font:30px/88px "微软雅黑";
+	padding-left:23px;
+	position:relative;
+}
+.filItem li:last-child{
+	border-bottom: none;
+}
+.filItem{
+	height:995px;
+	overflow-y: scroll;
+}
+.hotel>div{
+	display:inline-block;
+	width:200px;
+	height:250px;
+	margin:20px 0 0 19px;
+}
+.hotel>div p{
+	font:26px/45px "微软雅黑";
+	color:#b3b3b3;
+	text-align: center;
+}
+.hotelName{
+	height:45px;
+}
+.hotel{
+	background:#fafafa;
+}
+.htPhoto{
+	width:200px;
+	height:200px;
+}
+.high{
+	color:#189afe;
+	background:url(../images/select.png)
+}
+.hotelLogo{
+	border:2px solid #fafafa;
+}
+.imgHign{
+	border:2px solid #189AFE
+}
+
+.filterHeader{
+	width:690px;
+	height:85px;
+	font:36px/85px "微软雅黑";
+	padding:0 30px 0 30px;
+	color:#353535;
+	text-align: center;
+	position:relative;
+}
+.inHL{
+    position: absolute;
+    top: 28px;
+    left: 37px;
+    width: 24px;
+    height: 24px;
+    border: 6px solid #C9C9C9;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 	/* Opera */
+}
+.ensure{
+	width:690px;
+	height:80px;
+	margin:20px auto 0;
+	font: 32px/65px "微软雅黑";
+}
+
+.reset{
+	width:325px;
+	height:65px;
+	border:3px solid #ececec;
+	border-radius:15px;
+	text-align: center;
+}
+.conf{
+	width:325px;
+	height:65px;
+	background:#4698ff;
+	border-radius:15px;
+	text-align: center;
+	color:white;
+	margin-left:30px;
+}

@@ -1,0 +1,265 @@
+.myReH{
+	width:690px;
+	height:90px;
+	background:#4698ff;
+	font:30px/90px "微软雅黑";
+	color:white;
+	text-align: center;
+	padding:0 30px 0 30px;
+	position:relative;
+}
+.inHL{
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    width: 27px;
+    height: 27px;
+    border: 6px solid white;
+    border-bottom: none;
+    border-right: none;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 	/* Opera */
+}
+
+/*reDetailsStart*/
+.reDetails{
+	width:750px;
+	height:auto;
+	/*padding:0 30px 0px 30px;*/
+	 background:white;
+	 margin-top: 20px;
+}
+.reList{
+	width:690px;
+	height:305px;
+	padding:0 30px 0px 30px;
+	position:relative;
+}
+.reItemName{
+	width:480px;
+	height:70px;
+	font:30px "微软雅黑";
+	color:#353535;
+	padding-top:25px;
+    margin-bottom: 26px;
+   
+}
+.not{
+	position: absolute;
+    right: 30px;
+    top: 50px;
+    font:30px "微软雅黑";
+    color:#adadad;
+}
+.reList p{
+	font:26px "微软雅黑";
+	color:#999999;
+	margin-bottom: 17px;
+	padding-left:30px;
+	background:url(../images/loc.png) no-repeat 1px 5px;
+}
+.reList ul{
+	border-bottom: 1px dashed #777;
+}
+.reList ul li{
+	width:200px;
+	height:60px;
+	line-height: 60px;
+}
+.reList ul li span:nth-child(1){
+	font:26px "微软雅黑";
+	color:#999;
+}
+.reList ul li span:nth-child(2){
+	font:30px "微软雅黑";
+	color:#353535;
+}
+.all{
+	width:100px;
+	height:30px;
+	border-radius: 12px;
+	font:24px/30px "微软雅黑";
+	margin-top: 12px;
+	color:#ccc;
+	text-align: center;
+	border:1px solid #adadad;
+}
+.price{
+	height:40px;
+	margin-top:12px;
+}
+.price div:nth-child(1){
+	font:34px "微软雅黑";
+	color:red;
+	float:left;
+}
+.underway{
+	font:26px "微软雅黑";
+	color:#6badff;
+	margin-top:4px;
+	float:right
+}
+.status{
+	width:132px;
+	height:48px;
+	border:1px solid #bbbbbb;
+	font:26px/48px "微软雅黑";
+	color:#666666;
+	border-radius:5px;
+	margin-top:-3px;
+	float:right;
+	text-align: center;
+}
+.closeIndent{
+	width:132px;
+	height:48px;
+	border:1px solid #bbbbbb;
+	font:26px/48px "微软雅黑";
+	color:#666666;
+	border-radius:5px;
+	margin-top:-3px;
+	float:right;
+	text-align: center;
+}
+.payment{
+	width:132px;
+	height:48px;
+	border:1px solid #189afe;
+	font:26px/48px "微软雅黑";
+	color:#189afe;
+	border-radius:5px;
+	margin:-3px 0 0 15px;
+	float:right;
+	text-align: center;
+}
+.fulfill{
+	font:26px "微软雅黑";
+	color:#666666;
+	margin-top:4px;
+	float:right
+}
+.empty{
+	width:750px;
+	height:20px;
+	background:#efeff4
+}
+/*reDetailsEnd*/
+
+.cut{
+	width:600px;
+	height:88px;
+	background:white;
+	padding:0 75px 0 75px;
+	position:relative;
+}
+.cut li{
+	width:200px;
+	height:88px;
+	font:30px/88px "微软雅黑";
+}
+.cut li:nth-child(2){
+	text-align: center;   
+	 width: 180px;
+}
+.cut li:nth-child(3){
+	text-align: right;
+}
+.border{
+        height: 4px;
+    width: 122px;
+    background: #02A8F3;
+    position: absolute;
+    bottom: 0px;
+    left: 74px;
+}
+#gray{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    position:fixed;
+    top:0px;
+    display:none;
+    z-index:99;
+  }
+#refundHint{
+	display:none;
+	width:556px;
+	height:510px;
+	background:white;
+	margin:auto auto;
+	position: absolute;
+	z-index: 1111;
+	top:0px;
+	left:0px;
+	border:1px solid #ccc;
+	border-radius:15px;
+}
+#refundHint>div:nth-child(1){
+	font:bold 34px "微软雅黑";
+	color:#353535;
+	text-align: center;
+	margin:30px 0 38px 0px;
+}
+#refundHint textarea{
+	font-size:28px;
+	margin-left:30px;
+	border:1px solid #ccc";;
+	/*outline:none;*/
+}
+.choice{
+	width:556px;
+	height:100px;
+	border:1px solid #d2d3d5;
+	border-left:none;
+	border-right:none;
+	border-bottom: none;
+	border-radius:0 0 15px 15px;
+	margin-top:57px;
+	font:35px/100px  "微软雅黑";
+}
+.choice div{
+	display:inline-block;
+	width: 271px;
+	text-align: center;
+}
+.choice>div:nth-child(1){
+	border-right:1px solid #d2d3d5;
+}
+.choice>div:nth-child(2){
+	color:#4698ff;
+}
+#tHint{
+	display:none;
+	width:561px;
+	height:292px;
+	border:1px solid #d2d3d5;
+	border-radius:15px;
+	position: absolute;
+	z-index: 1110;
+	top:100px ;
+	left:110px;
+	background:white;
+	font:31px "微软雅黑";
+	
+}
+#tHint>div:nth-child(1){
+	margin:75px 25px 45px 25px;
+}
+.hintConfirm{
+	width:561px;
+	height:100px;
+	text-align: center;
+	font:30px/100px "微软雅黑";
+	color:#189AFE;
+	border-top:1px solid #d2d3d5;
+}
+
+
+
+
+
+
+
